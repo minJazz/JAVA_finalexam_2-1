@@ -30,7 +30,7 @@ public class Operator {
 		String originalTime = LocalDateTime.now().toString();	//현재시간 문자열 객체 생성
 		String nowTime = timeFormatConvert(originalTime);	//메소드의 리턴타입은 String 이므로 그에 알맞게 저장해줌.
 
-		System.out.println("KMJ 도서관에 오신것을 환영합니다!!    현재시간 "+nowTime);	
+		System.out.println("KMJ 도서관에 오신것을 환영합니다!!!    현재시간 "+nowTime);	
 		//프로그램 시작을 알리는 환영 메세지
 		
 		
